@@ -26,5 +26,5 @@ and a shift down to height -20
  * straight lines 1 bird
 marker length 600-559 = 41
 lane width 852-442 = 410
-
+gap length 566 - 420 = 146 = 30feet 
 
