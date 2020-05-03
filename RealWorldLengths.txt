@@ -1,0 +1,30 @@
+ * straight_lines1_bird * 
+lane width 1057-251=806; 1061-243=818 
+marker 568-530=38; 445-406=39
+gap 531-444=87; 655-568=87
+
+straight_lines2_bird
+marker: 523-478=45; 397-351=46
+
+
+
+with a sqeeze of 200px left and right
+ * straight lines 1 bird
+marker length 568-531 = 37
+lane width 858-450 = 408
+
+
+with a sqeeze of weighted 200px left and right
+and a shift down to height -5
+ * straight lines 1 bird
+marker length 613-572 = 41
+lane width 882-443 = 449
+
+
+with a sqeeze of weighted 200px left and right
+and a shift down to height -20
+ * straight lines 1 bird
+marker length 600-559 = 41
+lane width 852-442 = 410
+
+
