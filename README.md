@@ -206,6 +206,10 @@ To visualize our found lane, we draw the lane in its bird's-eye view and use the
 
 Lastly, we run the full lane detection pipeline on a video. Wrt. the single image pipeline, we adapt the [4. Fit lanes](#4.-Fit-lanes) step. In this case of subsequent video frames, we use the lane found in the previous frame - rather than the sliding window technique - to geometrically select the lane marker pixels. Noteworthy, the general good quality of the lane model allows to half the horizontal width of the search window compared to the sliding window technique. The implementation falls back to the sliding window technique for the first frame and in case of a bad fit of the lane model (which is not triggered in our test video).
 
+Click the gif for the full video:
+ 
+[![video](output_videos/lane.gif)](output_videos/project_video_origlanes.mp4)
+
 <video width="640" height="480" id="vid1" controls>
     <source src="output_videos/project_video_origlanes.mp4" type="video/mp4">
 </video>
