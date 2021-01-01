@@ -1,6 +1,6 @@
 # **My Advanced Lane Finding**
 
-![Lanes Image](output_images\test4_all.jpg)
+![Lanes Image](output_images/test4_all.jpg)
 
 ## **<span style="text-decoration: underline">Overview</span>**
 This exercise consisted of:<br/>
@@ -198,7 +198,7 @@ For details, see [this cell](Pipeline-TestImages.ipynb#Determine-Curve-Radius) o
 
 To visualize our found lane, we draw the lane in its bird's-eye view and use the perspective transform in its inverse to translate the bird's-eye lane to an ego-view lane. We then stack the ego-view camera image with the ego-view lane image. The result is shown in the following figure, the code can be found in [this cell](Pipeline-TestImages.ipynb#Draw-on-original-image).
 
-![Lanes Image](output_images\test4_all.jpg)
+![Lanes Image](output_images/test4_all.jpg)
 
 ---
 
